@@ -1,0 +1,39 @@
+  
+body{
+	font-family: "Goudy Bookletter 1911", sans-serif;
+	color: black;
+}
+.imagespp {
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+    
+}
+.bar{
+    background-color: #0B88BF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.couleurnav{
+    color: black;
+}
+a:hover {
+	color: black;
+	background-color: black;
+}
+.nav > li > a:hover {
+  background-color: #52ABF5;
+}
+.b{
+	margin-bottom: 25px;
+}
+@media screen and (max-width: 768px){
+	.maxnav{
+		display: none;
+	}
+}
+@media screen and (min-width: 768px){
+	.minnav{
+		display: none;
+	}
+}
